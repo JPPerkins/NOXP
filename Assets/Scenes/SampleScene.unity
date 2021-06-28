@@ -795,6 +795,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 20
   bulletPrefab: {fileID: 2779963914228659655, guid: 71142e66044aa48499f395e15b68af90, type: 3}
+  secondsBetweenShots: 0.2
+  shotsPerSecond: 5
 --- !u!54 &1407894823
 Rigidbody:
   m_ObjectHideFlags: 0

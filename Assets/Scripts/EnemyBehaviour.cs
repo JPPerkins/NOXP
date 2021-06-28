@@ -7,7 +7,7 @@ public class EnemyBehaviour : MonoBehaviour
    	Rigidbody ourRigidbody;
     [SerializeField] GameObject player;
     [SerializeField] float speed;
-
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -16,10 +16,13 @@ public class EnemyBehaviour : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        //ourRigidBody.velocity = some kind of vector going towards the player.
-        Vector3 vectorToPlayer = player.transform.position - transform.position;
-        ourRigidbody.velocity = vectorToPlayer.normalized * speed;
-    
-    }
+	{
+		MoveToPlayer();
+	}
+
+	private void MoveToPlayer()
+	{
+		Vector3 vectorToPlayer = player.transform.position - transform.position;
+		ourRigidbody.velocity = vectorToPlayer.normalized * speed;
+	}
 }

@@ -9,39 +9,53 @@ public class PlayerBehaviour : MonoBehaviour
 
 	[SerializeField] float speed; // 'float' is short for floating point number, basically a normal number
 	[SerializeField] GameObject bulletPrefab;
+	[SerializeField] float secondsBetweenShots;
+	[SerializeField] float shotsPerSecond;
 	Rigidbody ourRigidbody;
+	float secondsSinceLastShot;
 
 
 	// Start is called before the first frame update
 	void Start()
 	{
 		ourRigidbody = GetComponent<Rigidbody>();
+		secondsSinceLastShot = secondsBetweenShots;
+		secondsBetweenShots = 1 / shotsPerSecond;
 	}
 
 	// Update is called once per frame
 	void Update()
 	{
+		secondsBetweenShots = 1 / shotsPerSecond;
+		GetMousePosition();
 		ProcessMovement();
-		ProcessMouse();
+		ProcessMouseInput();
+	}
+
+	private void GetMousePosition()
+	{
+		Ray rayFromCameraToCursor = Camera.main.ScreenPointToRay(Input.mousePosition);
+		Plane playerPlane = new Plane(Vector3.up, transform.position);
+		playerPlane.Raycast(rayFromCameraToCursor, out float distanceFromCamera);
+		Vector3 mousePosition = rayFromCameraToCursor.GetPoint(distanceFromCamera);
+
+		transform.LookAt(mousePosition);
 	}
 
 	//WASD to move
-	void ProcessMovement()
+	private void ProcessMovement()
 	{
-		//Find the new position we'll move to
-
 		Vector3 rawMovementInput = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
 		ourRigidbody.velocity = rawMovementInput * speed;
-		
-		Vector3 lookAtPosition = transform.position + rawMovementInput;
-		transform.LookAt(lookAtPosition); //Face the new position
 	}
 
-	void ProcessMouse()
+	private void ProcessMouseInput()
 	{
-		if (Input.GetButton("Fire1"))
+		if (Input.GetButton("Fire1") && secondsSinceLastShot > secondsBetweenShots)
 		{
 			Instantiate(bulletPrefab, transform.position + transform.forward, transform.rotation);
+			secondsSinceLastShot = 0;
 		}   
+		secondsSinceLastShot += Time.deltaTime;
 	}
 }

@@ -4,13 +4,28 @@ using UnityEngine;
 
 public class BulletBehaviour : MonoBehaviour
 {
-	float timeUntilDeath = 5f;
+	[SerializeField] float secondsUntilDestroyed;
 	[SerializeField] float bulletSpeed;
 	// Update is called once per frame
 	void Start()
 	{
 		Rigidbody ourRigidbody = GetComponent<Rigidbody>();
 		ourRigidbody.velocity = transform.forward * bulletSpeed;
+	}
+
+	void Update() 
+	{
+		secondsUntilDestroyed -= Time.deltaTime;
+
+		if (secondsUntilDestroyed <= 1)
+		{
+			transform.localScale *= secondsUntilDestroyed;
+		}
+
+		if (secondsUntilDestroyed <= 0)
+		{
+			Destroy(gameObject);
+		}
 	}
 
 	private void OnCollisionEnter(Collision collision) 
