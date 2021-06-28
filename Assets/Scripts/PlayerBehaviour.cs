@@ -19,6 +19,7 @@ public class PlayerBehaviour : MonoBehaviour
 	void Start()
 	{
 		ourRigidbody = GetComponent<Rigidbody>();
+		References.thePlayer = gameObject;
 		secondsSinceLastShot = secondsBetweenShots;
 		secondsBetweenShots = 1 / shotsPerSecond;
 	}

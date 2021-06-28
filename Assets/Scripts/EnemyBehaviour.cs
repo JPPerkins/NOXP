@@ -5,9 +5,8 @@ using UnityEngine;
 public class EnemyBehaviour : MonoBehaviour
 {
    	Rigidbody ourRigidbody;
-    [SerializeField] GameObject player;
     [SerializeField] float speed;
-    
+    [SerializeField] float enemyDamage;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,11 +17,28 @@ public class EnemyBehaviour : MonoBehaviour
     void Update()
 	{
 		MoveToPlayer();
+        //transform.LookAt(References.thePlayer.transform);
 	}
 
 	private void MoveToPlayer()
 	{
-		Vector3 vectorToPlayer = player.transform.position - transform.position;
-		ourRigidbody.velocity = vectorToPlayer.normalized * speed;
+        if (References.thePlayer != null)
+        {
+            Vector3 vectorToPlayer = References.thePlayer.transform.position - transform.position;
+            ourRigidbody.velocity = vectorToPlayer.normalized * speed;
+        }
+	}
+
+    private void OnCollisionEnter(Collision collision) 
+	{
+		GameObject collisionObject = collision.gameObject;
+		if (collisionObject.GetComponent<PlayerBehaviour>())
+		{
+			HealthSystem objectHealth = collisionObject.GetComponent<HealthSystem>();
+			if (objectHealth != null)
+			{
+				objectHealth.TakeDamage(enemyDamage);
+			}
+		}
 	}
 }

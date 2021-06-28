@@ -6,6 +6,7 @@ public class BulletBehaviour : MonoBehaviour
 {
 	[SerializeField] float secondsUntilDestroyed;
 	[SerializeField] float bulletSpeed;
+	[SerializeField] float bulletDamage;
 	// Update is called once per frame
 	void Start()
 	{
@@ -33,7 +34,11 @@ public class BulletBehaviour : MonoBehaviour
 		GameObject collisionObject = collision.gameObject;
 		if (collisionObject.GetComponent<EnemyBehaviour>())
 		{
-			Destroy(collisionObject);
+			HealthSystem objectHealth = collisionObject.GetComponent<HealthSystem>();
+			if (objectHealth != null)
+			{
+				objectHealth.TakeDamage(bulletDamage);
+			}
 			Destroy(gameObject);
 		}
 	}
