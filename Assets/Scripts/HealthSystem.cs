@@ -11,6 +11,7 @@ public class HealthSystem : MonoBehaviour
 	[SerializeField] float maxHealth;
 	[SerializeField] float currentHealth;
 	[SerializeField] GameObject healthBarPrefab;
+	[SerializeField] GameObject deathEffectPrefab;
 	HealthBar myHealthBar;
 
 	void Start() {
@@ -31,12 +32,17 @@ public class HealthSystem : MonoBehaviour
 		currentHealth -= damageAmount;
 		if (IsDead())
 		{
+			if (deathEffectPrefab != null)
+			{
+				Instantiate(deathEffectPrefab, transform.position, transform.rotation);
+			}
 			Destroy(gameObject);
 		}
 	}
 
 	private void OnDestroy()
 	{ 
+		//Don't create anything in the ondestroy event - it's only for cleaning up after yourself
 		if (myHealthBar != null)
 		{ 
 			Destroy(myHealthBar.gameObject);
