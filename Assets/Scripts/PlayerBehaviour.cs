@@ -6,34 +6,26 @@ public class PlayerBehaviour : MonoBehaviour
 {
 	// never set the value of a public variable here - the inspector will override it without telling you.
 	// if you need to, set it in Start() instead
-
 	[SerializeField] float speed; // 'float' is short for floating point number, basically a normal number
-	[SerializeField] GameObject bulletPrefab;
-	[SerializeField] float secondsBetweenShots;
-	[SerializeField] float shotsPerSecond;
+	[SerializeField] WeaponBehaviour currentWeapon;
 	Rigidbody ourRigidbody;
-	float secondsSinceLastShot;
-
 
 	// Start is called before the first frame update
 	void Start()
 	{
 		ourRigidbody = GetComponent<Rigidbody>();
 		References.thePlayer = gameObject;
-		secondsSinceLastShot = secondsBetweenShots;
-		secondsBetweenShots = 1 / shotsPerSecond;
+
 	}
 
 	// Update is called once per frame
 	void Update()
 	{
-		secondsBetweenShots = 1 / shotsPerSecond;
-		GetMousePosition();
-		ProcessMovement();
 		ProcessMouseInput();
+		ProcessMovement();
 	}
 
-	private void GetMousePosition()
+	private void ProcessMouseInput()
 	{
 		Ray rayFromCameraToCursor = Camera.main.ScreenPointToRay(Input.mousePosition);
 		Plane playerPlane = new Plane(Vector3.up, transform.position);
@@ -41,6 +33,11 @@ public class PlayerBehaviour : MonoBehaviour
 		Vector3 mousePosition = rayFromCameraToCursor.GetPoint(distanceFromCamera);
 
 		transform.LookAt(mousePosition);
+
+		if (Input.GetButton("Fire1"))
+		{
+			currentWeapon.Fire(mousePosition);
+		}   
 	}
 
 	//WASD to move
@@ -48,15 +45,5 @@ public class PlayerBehaviour : MonoBehaviour
 	{
 		Vector3 rawMovementInput = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
 		ourRigidbody.velocity = rawMovementInput * speed;
-	}
-
-	private void ProcessMouseInput()
-	{
-		if (Input.GetButton("Fire1") && secondsSinceLastShot > secondsBetweenShots)
-		{
-			Instantiate(bulletPrefab, transform.position + transform.forward, transform.rotation);
-			secondsSinceLastShot = 0;
-		}   
-		secondsSinceLastShot += Time.deltaTime;
 	}
 }

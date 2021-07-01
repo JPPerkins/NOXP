@@ -27,18 +27,6 @@ public class HealthSystem : MonoBehaviour
 		myHealthBar.ShowHealthFraction(currentHealth / maxHealth);
 		myHealthBar.transform.position = Camera.main.WorldToScreenPoint(transform.position + Vector3.up * 2);
 	}
-	public void TakeDamage(float damageAmount)
-	{
-		currentHealth -= damageAmount;
-		if (IsDead())
-		{
-			if (deathEffectPrefab != null)
-			{
-				Instantiate(deathEffectPrefab, transform.position, transform.rotation);
-			}
-			Destroy(gameObject);
-		}
-	}
 
 	private void OnDestroy()
 	{ 
@@ -46,6 +34,22 @@ public class HealthSystem : MonoBehaviour
 		if (myHealthBar != null)
 		{ 
 			Destroy(myHealthBar.gameObject);
+		}
+	}
+
+	public void TakeDamage(float damageAmount)
+	{
+		if (!IsDead())
+		{
+			currentHealth -= damageAmount;
+			if (IsDead())
+			{
+				if (deathEffectPrefab != null)
+				{
+					Instantiate(deathEffectPrefab, transform.position, transform.rotation);
+				}
+				Destroy(gameObject);
+			}
 		}
 	}
 	
