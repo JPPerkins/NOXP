@@ -40,9 +40,9 @@ public class WeaponBehaviour : MonoBehaviour
 		GameObject newBullet = Instantiate(bulletPrefab, transform.position + transform.forward, transform.rotation);
 		float inaccuracy = Vector3.Distance(transform.position, targetPosition) / accuracy;
 		//Offset that target position by a random amount, according to our inaccuracy
-		
-		targetPosition.x += Random.Range(-inaccuracy, inaccuracy);
-		targetPosition.z += Random.Range(-inaccuracy, inaccuracy);
-		newBullet.transform.LookAt(targetPosition);
+		Vector3 inaccuratePosition = targetPosition;
+		inaccuratePosition.x += Random.Range(-inaccuracy, inaccuracy);
+		inaccuratePosition.z += Random.Range(-inaccuracy, inaccuracy);
+		newBullet.transform.LookAt(inaccuratePosition);
 	}
 }
