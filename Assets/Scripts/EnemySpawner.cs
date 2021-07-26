@@ -10,20 +10,37 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] float secondsBetweenSpawns;
     float secondsSinceLastSpawn;
 
+    public bool activated;
+
+
+    private void Awake()
+	{
+        References.spawner = this;
+	}
+
     // Start is called before the first frame update
     void Start()
     {
+        activated = false;
         secondsSinceLastSpawn = 0;
     }
 
     // Fixed Updatehappens the same number of times for all players, so it's a good place for gameplay critical things.
     private void FixedUpdate()
     {
-        secondsSinceLastSpawn += Time.fixedDeltaTime;
-        if (secondsSinceLastSpawn >= secondsBetweenSpawns)
-        {
-            Instantiate(enemyPrefab, spawnPoint.transform.position, spawnPoint.transform.rotation);
-            secondsSinceLastSpawn = 0;
-        }
-    }
+        if (activated)
+		{
+			SpawnEnemies();
+		}
+	}
+
+	private void SpawnEnemies()
+	{
+		secondsSinceLastSpawn += Time.fixedDeltaTime;
+		if (secondsSinceLastSpawn >= secondsBetweenSpawns)
+		{
+			Instantiate(enemyPrefab, spawnPoint.transform.position, spawnPoint.transform.rotation);
+			secondsSinceLastSpawn = 0;
+		}
+	}
 }
