@@ -26,6 +26,7 @@ public class WeaponBehaviour : MonoBehaviour
 	{
 		if (secondsSinceLastShot > secondsBetweenShots)
 		{
+			References.spawner.activated = true;
 			//Ready to fire
 			for (int i = 0; i < numberOfProjectiles; i++)
 			{

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1325257577380775299}
   - component: {fileID: 1325257577380775298}
   - component: {fileID: 1325257577380775301}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1325257577497953988}
   - component: {fileID: 1325257577497953989}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -202,7 +202,7 @@ GameObject:
   - component: {fileID: 1325257577921279508}
   - component: {fileID: 1325257577921279509}
   - component: {fileID: 122525971337185590}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Guard
   m_TagString: Untagged
   m_Icon: {fileID: 0}

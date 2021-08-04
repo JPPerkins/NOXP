@@ -61,8 +61,12 @@ public class GuardBehaviour : EnemyBehaviour
 		{
 			if (Vector3.Angle(transform.forward, vectorToPlayer) <= visionConeAngle)
 			{
-				isAlerted = true;
-				References.spawner.activated = true;
+				// Returns true if we hit something on that layer, when we shoot a laser for that distance so we ! it
+				if (!Physics.Raycast(transform.position, vectorToPlayer, vectorToPlayer.magnitude, References.wallsLayer))
+				{
+					isAlerted = true;
+					References.spawner.activated = true;
+				}
 			}
 		}
 	}
