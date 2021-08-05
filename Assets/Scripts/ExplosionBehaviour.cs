@@ -5,12 +5,14 @@ using UnityEngine;
 public class ExplosionBehaviour : MonoBehaviour
 {
     [SerializeField] float secondsToExist;
+    [SerializeField] GameObject soundObject;
     float secondsWeveBeenAlive;
     
     // Start is called before the first frame update
     void Start()
     {
         secondsWeveBeenAlive = 0;
+        Instantiate(soundObject, transform.position, transform.rotation);
     }
 
     // Update is called once per frame
@@ -28,7 +30,7 @@ public class ExplosionBehaviour : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider other) 
+    private void OnTriggerEnter(Collider other)     
     {    
         //look for a health system on the thing we collided with
         HealthSystem theirHealthSystem = other.gameObject.GetComponent<HealthSystem>();

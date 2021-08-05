@@ -44,10 +44,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a122bf5fe2f77840a74b4e51ff7f351, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  secondsUntilDestroyed: 0
+  secondsUntilDestroyed: 3
   bulletSpeed: 0
   bulletDamage: 5
   myBeam: {fileID: 354636268743489542}
+  beamThickness: 0.3
 --- !u!120 &354636268743489542
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -99,8 +100,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0
-        value: 0.21649551
+        time: 0.009346008
+        value: 0.20103836
         inSlope: 0
         outSlope: 0
         tangentMode: 0

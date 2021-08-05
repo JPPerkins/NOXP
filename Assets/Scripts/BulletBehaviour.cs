@@ -14,7 +14,7 @@ public class BulletBehaviour : MonoBehaviour
 		ourRigidbody.velocity = transform.forward * bulletSpeed;
 	}
 
-	void Update() 
+	protected virtual void Update() 
 	{
 		secondsUntilDestroyed -= Time.deltaTime;
 

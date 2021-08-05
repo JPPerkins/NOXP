@@ -8,6 +8,8 @@ public static class References
     public static GameObject theCanvas;
     public static EnemySpawner spawner;
 
+    public static ScreenShake screenShake;
+
     public static float maxDistanceInALevel = 1000f;
 
     public static LayerMask wallsLayer = LayerMask.GetMask("Walls");

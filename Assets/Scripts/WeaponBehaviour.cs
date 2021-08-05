@@ -8,12 +8,17 @@ public class WeaponBehaviour : MonoBehaviour
 	[SerializeField] float accuracy;
     [SerializeField] float secondsBetweenShots;
 	[SerializeField] float numberOfProjectiles;
-    float secondsSinceLastShot;
+	[SerializeField] AudioSource audioSource;
+	[SerializeField] float kickAmount;
 
+	float secondsSinceLastShot;
+	
     // Start is called before the first frame update
     void Start()
     {
+		audioSource = GetComponent<AudioSource>();
         secondsSinceLastShot = secondsBetweenShots;
+
     }
 
     // Update is called once per frame
@@ -45,5 +50,7 @@ public class WeaponBehaviour : MonoBehaviour
 		inaccuratePosition.x += Random.Range(-inaccuracy, inaccuracy);
 		inaccuratePosition.z += Random.Range(-inaccuracy, inaccuracy);
 		newBullet.transform.LookAt(inaccuratePosition);
+		audioSource.Play();
+		References.screenShake.Jolt(transform.forward * -kickAmount);
 	}
 }
