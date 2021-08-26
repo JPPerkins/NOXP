@@ -1,0 +1,2447 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.15f1 (e767a7370072) revision 15165351'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 16314 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+E:\Games\UnityLibrary\2021.1.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+E:/Media/Github Repos/Unity/June/NOXP
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+52300
+Successfully changed project path to: E:/Media/Github Repos/Unity/June/NOXP
+E:/Media/Github Repos/Unity/June/NOXP
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 321.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.15f1 (e767a7370072)
+[Subsystems] Discovering subsystems at path E:/Games/UnityLibrary/2021.1.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Media/Github Repos/Unity/June/NOXP/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Vendor:   NVIDIA
+    VRAM:     8011 MB
+    Driver:   30.0.14.7141
+Initialize mono
+Mono path[0] = 'E:/Games/UnityLibrary/2021.1.15f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Games/UnityLibrary/2021.1.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/Games/UnityLibrary/2021.1.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Games/UnityLibrary/2021.1.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Games/UnityLibrary/2021.1.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.020421 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 310.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.357 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7357ms)
+		BeginReloadAssembly (329ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1951ms)
+			LoadAssemblies (314ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (734ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (132ms)
+			SetupLoadedEditorAssemblies (880ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (311ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (402ms)
+				ProcessInitializeOnLoadMethodAttributes (133ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.043036 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 5.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.182 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4183ms)
+		BeginReloadAssembly (697ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (27ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (3149ms)
+			LoadAssemblies (483ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1193ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (153ms)
+			SetupLoadedEditorAssemblies (1000ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (278ms)
+				ProcessInitializeOnLoadAttributes (612ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (45ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2958 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.7 MB.
+System memory in use after: 106.9 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3403.
+Total: 2.563000 ms (FindLiveObjects: 0.671600 ms CreateObjectMapping: 0.215000 ms MarkObjects: 1.604100 ms  DeleteObjects: 0.070900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Enemy.prefab
+  artifactKey: Guid(b9260a3e11f062041a73c4a0b533925f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy.prefab using Guid(b9260a3e11f062041a73c4a0b533925f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b2a339f3d75f964d53e3a69bff06df') in 0.396370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.879630 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157358cd0d4356a2581d35f878a90610') in 0.017970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.182998 seconds.
+  path: Assets/DeathEffect.cs
+  artifactKey: Guid(9d5813cbaa3b0684d9024c68bce405b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeathEffect.cs using Guid(9d5813cbaa3b0684d9024c68bce405b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e7a1724e9dddea87a1955b98c78cb9') in 0.032940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.070328 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2360398f1b77ab440be8e09a75432b5') in 0.029651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.220391 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5887b55f16dcf7530370192d37ca83ee') in 0.036335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.943772 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a67bc39633b09474ee752a6c14f77fcd') in 0.020020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.367597 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb7573e0e3d38e9b04abbfb2af74c1c') in 0.012659 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.026639 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.650 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3650ms)
+		BeginReloadAssembly (327ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (99ms)
+		EndReloadAssembly (3072ms)
+			LoadAssemblies (337ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1181ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (135ms)
+			SetupLoadedEditorAssemblies (1030ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (80ms)
+				SetLoadedEditorAssemblies (13ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (204ms)
+				ProcessInitializeOnLoadAttributes (686ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (34ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2953 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.4 MB.
+System memory in use after: 110.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3413.
+Total: 7.444700 ms (FindLiveObjects: 0.241700 ms CreateObjectMapping: 0.153500 ms MarkObjects: 6.960700 ms  DeleteObjects: 0.087000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025403 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.017 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3018ms)
+		BeginReloadAssembly (313ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (99ms)
+		EndReloadAssembly (2514ms)
+			LoadAssemblies (288ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1012ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (770ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (173ms)
+				ProcessInitializeOnLoadAttributes (542ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (30ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2953 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.5 MB.
+System memory in use after: 110.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3415.
+Total: 7.829400 ms (FindLiveObjects: 4.443700 ms CreateObjectMapping: 0.929100 ms MarkObjects: 2.390000 ms  DeleteObjects: 0.064500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023889 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.768 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3768ms)
+		BeginReloadAssembly (466ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (27ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (156ms)
+		EndReloadAssembly (3080ms)
+			LoadAssemblies (326ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (1230ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (152ms)
+			SetupLoadedEditorAssemblies (1067ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (207ms)
+				ProcessInitializeOnLoadAttributes (776ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (46ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2953 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.5 MB.
+System memory in use after: 110.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3417.
+Total: 3.644200 ms (FindLiveObjects: 0.442500 ms CreateObjectMapping: 0.298300 ms MarkObjects: 2.841300 ms  DeleteObjects: 0.059700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 632.996046 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb09cb897f5f971f7dfff67bcea2f7ff') in 0.238832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.417393 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be0beebc393aa169c28e50b7cf37a2f') in 0.020407 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.032609 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.224 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3225ms)
+		BeginReloadAssembly (322ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (84ms)
+		EndReloadAssembly (2716ms)
+			LoadAssemblies (303ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1074ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (152ms)
+			SetupLoadedEditorAssemblies (881ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (198ms)
+				ProcessInitializeOnLoadAttributes (608ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (38ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2953 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.5 MB.
+System memory in use after: 110.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3419.
+Total: 10.501800 ms (FindLiveObjects: 3.736700 ms CreateObjectMapping: 0.549500 ms MarkObjects: 6.099600 ms  DeleteObjects: 0.114200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 48.257814 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c07899625d5cb5a75bc51139b58c395') in 0.071605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.815402 seconds.
+  path: Assets/Death Effect Variant.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect Variant.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8ccec23d4a1015356d66904342c362') in 0.042735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.614650 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6a5b39b16fac8220a40e9bb3ce5f9a') in 0.031928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.188731 seconds.
+  path: Assets/Guard.prefab
+  artifactKey: Guid(2cfeb840260aee14b975d1505edc7f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Guard.prefab using Guid(2cfeb840260aee14b975d1505edc7f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365b35b0396c52a3f1ae16db453185d7') in 0.148451 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024738 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.676 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3677ms)
+		BeginReloadAssembly (427ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (93ms)
+		EndReloadAssembly (2993ms)
+			LoadAssemblies (426ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1225ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (947ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (221ms)
+				ProcessInitializeOnLoadAttributes (650ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (43ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2953 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.5 MB.
+System memory in use after: 110.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3423.
+Total: 9.379000 ms (FindLiveObjects: 0.348600 ms CreateObjectMapping: 0.361700 ms MarkObjects: 8.607300 ms  DeleteObjects: 0.059900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 98.044349 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1926059c0290cc9cf0f73f03ee80933d') in 0.134222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b513b6be4bc49407e5da13ed6533248') in 0.026408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.452071 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec84093c563abcaa42fd14829bfdaa4b') in 0.071395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000604 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006dfabdfb14dedeeb14bc52e787a567') in 0.030386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.126694 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77577e9db7b9878481236928f2ccf75') in 0.040134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98988a831998473d34dad54c38760450') in 0.027888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.304448 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '062a3ea983fa63be8bc70b8c294c53ae') in 0.022259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '160dccb1592f5d7be014ded3b877fe28') in 0.018733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.331512 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd574b7375832a36871915ebf805d42c1') in 0.021180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3770f5c0c48f957d8bb3298c35ec2973') in 0.025044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.926675 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eb77437e47f881da2a86c1a6d2e5247') in 0.033507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001171 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd884297bc9e3878d6ad3b840976acf77') in 0.029137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.081897 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f0f8b4ad12ba70c3e3445c90a6aba7') in 0.042123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1822fb9320dd5a5070093048090b28') in 0.032177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.381107 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654a562cb66ba9122570d64b28496636') in 0.033343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f74ef2d5ac78e07018c9ba0fa82ca6') in 0.032024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.125099 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19be312392fc0693802a5849a631c600') in 0.037438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002159 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b710797e4415438887ae872d67a9ea65') in 0.023335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.226856 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd42c23f301f820e0dd61c2111040ed9f') in 0.024994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094836b8a11bef730247b165dc7cb950') in 0.028168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.731678 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e2fef2023db60bb5ec56105fe84b5f') in 0.016847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe4a6a893defb402d896c6860f41366') in 0.021305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.009165 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e0e2e4e3fdcbccb12862e18fcf99bbb') in 0.029495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352e35697334a4a6b63d96b65c20feab') in 0.025179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.136984 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a951152a87b70fa777749b08a5cf56') in 0.017358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001510 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b75c9b5295485b7f62d728347fae6b3') in 0.023292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.159425 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6284fddf1263da2caa0ab53e2db4e5a2') in 0.025830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76cd5d1df1cc97a2106cd93406f27268') in 0.025833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.534409 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89447d303b31c66b6847adb4be6a352c') in 0.065998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007971 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e669bd0a91c48b1510b20ce073b059') in 0.031653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.475634 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3012b71a546efc0d45aa6f2154ffc99') in 0.014365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3c3cec2f24a5f39ad95a2795cb2855') in 0.025991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.208082 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f45eaca0e8798662332dd25728562e6') in 0.021424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5eef99e4417d1d20c549ffdec650f5') in 0.018056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.721270 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6592655f3f9d619de832129156bc8240') in 0.026967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d0605ef60416106b4a9f27f6755cd48') in 0.015856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.602399 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f976ef3a741f4d801b6993047d97f381') in 0.020684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa9f988185acea66b61822c1237d492') in 0.025942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.280767 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8ff4a35edf8e4e16f89e4f744eef8b') in 0.040744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45a6fc0115ffa243a79894ddfac1a7f') in 0.038039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.136062 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340298f109ab3746acfbd33666d0b10b') in 0.031448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a4af6f942f33f59327dc95689ffb78') in 0.016462 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023955 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.453 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4454ms)
+		BeginReloadAssembly (430ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (107ms)
+		EndReloadAssembly (3740ms)
+			LoadAssemblies (404ms)
+			RebuildTransferFunctionScriptingTraits (3ms)
+			SetupTypeCache (1561ms)
+			ReleaseScriptCaches (12ms)
+			RebuildScriptCaches (208ms)
+			SetupLoadedEditorAssemblies (1225ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (241ms)
+				ProcessInitializeOnLoadAttributes (904ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (40ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2953 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.6 MB.
+System memory in use after: 110.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3425.
+Total: 18.177100 ms (FindLiveObjects: 0.381700 ms CreateObjectMapping: 0.239500 ms MarkObjects: 17.472400 ms  DeleteObjects: 0.082000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 75.193115 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c14d9e9833542c81e486e72a6c5a00') in 0.182768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004382 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120cc1686fe3b21f083cbf33530e0b6d') in 0.039569 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.047627 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.151 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4152ms)
+		BeginReloadAssembly (482ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (23ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (114ms)
+		EndReloadAssembly (3362ms)
+			LoadAssemblies (456ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1413ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (175ms)
+			SetupLoadedEditorAssemblies (907ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (189ms)
+				ProcessInitializeOnLoadAttributes (633ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (46ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2953 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.6 MB.
+System memory in use after: 110.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3427.
+Total: 9.820700 ms (FindLiveObjects: 0.481800 ms CreateObjectMapping: 0.724000 ms MarkObjects: 8.537800 ms  DeleteObjects: 0.075100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021865 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.914 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2914ms)
+		BeginReloadAssembly (294ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (2420ms)
+			LoadAssemblies (280ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (990ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (119ms)
+			SetupLoadedEditorAssemblies (788ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (203ms)
+				ProcessInitializeOnLoadAttributes (521ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (35ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2953 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.6 MB.
+System memory in use after: 110.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3429.
+Total: 11.984200 ms (FindLiveObjects: 0.767600 ms CreateObjectMapping: 0.906400 ms MarkObjects: 10.215200 ms  DeleteObjects: 0.090800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 88.262172 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e9cbc01fa644af18f129642168df7f') in 0.062213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd82e6dda46d9281508ffa7fa0d815ed9') in 0.023995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.824940 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f8431074e5bf1afb69e723ec14d760') in 0.038130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e944ebb2b3b39a03d9716ecfd11b67f9') in 0.016316 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.031378 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.613 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3614ms)
+		BeginReloadAssembly (347ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (104ms)
+		EndReloadAssembly (3068ms)
+			LoadAssemblies (294ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1420ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (127ms)
+			SetupLoadedEditorAssemblies (933ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (200ms)
+				ProcessInitializeOnLoadAttributes (610ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (77ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2953 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.6 MB.
+System memory in use after: 110.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3431.
+Total: 30.653300 ms (FindLiveObjects: 0.485000 ms CreateObjectMapping: 5.344100 ms MarkObjects: 24.754400 ms  DeleteObjects: 0.067400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 85.170906 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea37301f5b2de933a9499a120c56730') in 0.178129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc589861bcde15996994d06c498a503') in 0.020271 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.028108 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.697 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3698ms)
+		BeginReloadAssembly (333ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (23ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (3107ms)
+			LoadAssemblies (317ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1273ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (166ms)
+			SetupLoadedEditorAssemblies (950ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (200ms)
+				ProcessInitializeOnLoadAttributes (674ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (38ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2953 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.6 MB.
+System memory in use after: 110.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3433.
+Total: 4.041400 ms (FindLiveObjects: 0.452200 ms CreateObjectMapping: 0.331100 ms MarkObjects: 3.199000 ms  DeleteObjects: 0.057800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 28.246265 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316acf05cd7adf986591e83de504ea2f') in 0.108707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f12b13842d6fe3c3a671a16a7d84762') in 0.005712 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023215 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.359 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3360ms)
+		BeginReloadAssembly (294ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (2777ms)
+			LoadAssemblies (341ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1121ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (138ms)
+			SetupLoadedEditorAssemblies (841ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (171ms)
+				ProcessInitializeOnLoadAttributes (593ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (39ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2953 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.6 MB.
+System memory in use after: 110.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3435.
+Total: 6.987400 ms (FindLiveObjects: 1.012000 ms CreateObjectMapping: 0.270800 ms MarkObjects: 5.646300 ms  DeleteObjects: 0.056900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021752 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.903 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3903ms)
+		BeginReloadAssembly (390ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (122ms)
+		EndReloadAssembly (3260ms)
+			LoadAssemblies (347ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1222ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (212ms)
+			SetupLoadedEditorAssemblies (1210ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (77ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (270ms)
+				ProcessInitializeOnLoadAttributes (808ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (40ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2953 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.6 MB.
+System memory in use after: 110.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3437.
+Total: 35.348600 ms (FindLiveObjects: 0.358700 ms CreateObjectMapping: 0.337500 ms MarkObjects: 34.593700 ms  DeleteObjects: 0.057000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021809 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.889 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2889ms)
+		BeginReloadAssembly (275ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (2434ms)
+			LoadAssemblies (249ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (898ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (825ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (177ms)
+				ProcessInitializeOnLoadAttributes (582ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (36ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2953 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.6 MB.
+System memory in use after: 110.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3439.
+Total: 7.519200 ms (FindLiveObjects: 0.341300 ms CreateObjectMapping: 0.234500 ms MarkObjects: 6.785200 ms  DeleteObjects: 0.156300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023481 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.306 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3307ms)
+		BeginReloadAssembly (344ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (89ms)
+		EndReloadAssembly (2735ms)
+			LoadAssemblies (380ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1134ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (126ms)
+			SetupLoadedEditorAssemblies (791ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (162ms)
+				ProcessInitializeOnLoadAttributes (555ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (35ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2953 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.6 MB.
+System memory in use after: 110.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3441.
+Total: 3.999800 ms (FindLiveObjects: 0.454600 ms CreateObjectMapping: 0.179600 ms MarkObjects: 3.280700 ms  DeleteObjects: 0.083600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025133 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.366 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3367ms)
+		BeginReloadAssembly (335ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (98ms)
+		EndReloadAssembly (2820ms)
+			LoadAssemblies (270ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (996ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (243ms)
+			SetupLoadedEditorAssemblies (944ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (233ms)
+				ProcessInitializeOnLoadAttributes (642ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (32ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2953 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.6 MB.
+System memory in use after: 110.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3443.
+Total: 5.779300 ms (FindLiveObjects: 1.041200 ms CreateObjectMapping: 0.487400 ms MarkObjects: 4.140000 ms  DeleteObjects: 0.108800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 169.563097 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33dbba403794adf1497d1ac868e00e7f') in 0.079015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001074 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d4e7d559d95ce09300db100585d6a1') in 0.015459 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.054145 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.483 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6485ms)
+		BeginReloadAssembly (617ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (29ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (145ms)
+		EndReloadAssembly (5470ms)
+			LoadAssemblies (611ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2092ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (252ms)
+			SetupLoadedEditorAssemblies (1817ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (410ms)
+				ProcessInitializeOnLoadAttributes (1287ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (70ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (44ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2953 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.6 MB.
+System memory in use after: 110.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3445.
+Total: 37.527600 ms (FindLiveObjects: 1.822200 ms CreateObjectMapping: 1.065200 ms MarkObjects: 34.581000 ms  DeleteObjects: 0.057100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 56.763761 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83bcfd5f13d928806c6cd641897eda10') in 0.073141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.257040 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094cf39b35858c427d4a3eec7c9061b1') in 0.015501 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.019879 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.919 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2919ms)
+		BeginReloadAssembly (298ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (2421ms)
+			LoadAssemblies (261ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (954ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (138ms)
+			SetupLoadedEditorAssemblies (795ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (161ms)
+				ProcessInitializeOnLoadAttributes (571ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (32ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2953 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.6 MB.
+System memory in use after: 110.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3447.
+Total: 6.198800 ms (FindLiveObjects: 0.549700 ms CreateObjectMapping: 0.571000 ms MarkObjects: 4.930700 ms  DeleteObjects: 0.145900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 85.801183 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19c1365791fa24be97ee511c1162295') in 0.071142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.942945 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c545732370453b5ee08562e27fc94c76') in 0.021595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438b9d5e75e1733de84cfc1c63c28d36') in 0.023265 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.033528 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.367 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3368ms)
+		BeginReloadAssembly (378ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (109ms)
+		EndReloadAssembly (2741ms)
+			LoadAssemblies (310ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1004ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (177ms)
+			SetupLoadedEditorAssemblies (868ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (191ms)
+				ProcessInitializeOnLoadAttributes (588ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (57ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (49ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2953 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 110.6 MB.
+System memory in use after: 110.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3449.
+Total: 5.475100 ms (FindLiveObjects: 1.521000 ms CreateObjectMapping: 0.598700 ms MarkObjects: 3.289200 ms  DeleteObjects: 0.064700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 75.806839 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6496711487bd605c3ed9212c9f6d1a') in 0.074561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108a16d3f7d397d47c4d89ad9bb72af2') in 0.023212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.241474 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af22c7a24d652b2ff36aa965cff59a1') in 0.029825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e398a444fa0e1f4ea157ee73913476') in 0.018173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.705487 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df8deb53db578450954eb3502294688') in 0.211518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9440ecb90d2b9fca699a9503b7531745') in 0.050331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.297637 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003c80b7219a9250fffd13519f0cdf8b') in 0.048575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001454 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c45cbff6212306be87d78f4149e130d') in 0.099338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 109.496990 seconds.
+  path: Assets/Soft dot.png
+  artifactKey: Guid(bf9e81bd273ab6b4c86b7b846c496d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soft dot.png using Guid(bf9e81bd273ab6b4c86b7b846c496d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c42488211f1eb6985d16ada2e710a89') in 0.332622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.073200 seconds.
+  path: Assets/Soft dot.png
+  artifactKey: Guid(bf9e81bd273ab6b4c86b7b846c496d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soft dot.png using Guid(bf9e81bd273ab6b4c86b7b846c496d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ecf61c80cff9c58493fafa994ac2eee') in 0.259174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.430501 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec864e68a86b05a9bbb40f73e8f74941') in 0.049032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816e251ccb59639440498538c52b8d05') in 0.061139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.750365 seconds.
+  path: Assets/Soft Dot.mat
+  artifactKey: Guid(06f5f9b6a63cf2f4e8ae86346f88ab73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Soft Dot.mat using Guid(06f5f9b6a63cf2f4e8ae86346f88ab73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e35ef6ce2c449c15a0adb3006e962e0') in 0.285355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.956493 seconds.
+  path: Assets/Particle Material.mat
+  artifactKey: Guid(06f5f9b6a63cf2f4e8ae86346f88ab73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Material.mat using Guid(06f5f9b6a63cf2f4e8ae86346f88ab73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6add0aa0a88e44ff539a81a29d13304') in 0.039918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 419.167566 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228bb53d8e786ce90b35ae3a7d9132c5') in 0.071919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c252504a53317b62f3d0576ae149d734') in 0.059902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.818717 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40145467029eb6116369b2cd0c3fdb8f') in 0.060250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f2c04298980edd69b65edee677dd0e') in 0.046032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.790160 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f809eb2d0b34169d718ca050ada948') in 0.071935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68161c38335a50de2b2ccc65cedd89b') in 0.042258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.628558 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9f1bd27abf7b2fbe20281fb293a601') in 0.044453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3348c4c9923ef14539d0262aad7b3337') in 0.046430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.240537 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f1929e0ae5662bb24f9984176b1a28') in 0.065682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3910dba1b5926c66a0633e5b54ec55ce') in 0.055609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.784513 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0336b255f83e1a41fe8987246d36e60a') in 0.043280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f101d81ac5ceb90256e90c857e2ed8c8') in 0.044369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.982433 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe2a65ba1ddb60d97b198e4fab0a84d') in 0.068539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d0724831517bea9fd4ef72702baa6e') in 0.126982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.875784 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c891d22678bfd8d9a8606d55d3b0a8a3') in 0.049069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006348 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2303ac27c73b206cc31099a11c4d66c5') in 0.038834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.981695 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ab2f863a1d54dc3de27dd7373abf2e') in 0.049048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000646 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15565160e9141007c0379a65564ccd8') in 0.052175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.696266 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cecf2b2657646e682e4089cb150ad004') in 0.058391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25110be4d6e09f558c1e07beed275d0') in 0.071032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.075940 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0d36d237be77cec9fb3150e1c48544') in 0.042478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd560a7bbcf92610225a5c71a8f03643') in 0.029117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.125191 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4925a7f64727c0f7bfc2b3bbc0bff6') in 0.061482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c363f5f551776bd8b386c94fc5bc3950') in 0.064325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.130195 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5774ea2cdd0729ad3612b1a65e8a5abc') in 0.074488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004753 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f44635bee3c897d67039b4d6ba3ccc6') in 0.050185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.478476 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71154c31b4720641b2c806b16b79c0f') in 0.043167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000709 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55329fa81a192dfdf41ded995060c692') in 0.032946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.787927 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a497951da2b90f44bed9eae7b2e4fcd0') in 0.073344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000961 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784984e59f52875bb96149337433291d') in 0.040051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.130632 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c39a51c1618aa02dbcf4c9bc7fb2b6f0') in 0.039521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c54596ba227744483e72557779efcf') in 0.078921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.877719 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '869795d35a370d00be0997364427eed2') in 0.070831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003088 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e835ea59934af0fa32652712be530035') in 0.069257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.740053 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0efb4bf93732cc410eb20acc6fd767d3') in 0.201257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001127 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3aff149d6c6cd9fd799a6dd848cb1e4') in 0.053835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.594588 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954ff4bc0e54d93b3a19a0d697003746') in 0.066850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31dc641b528752c5f7ea40f58424f124') in 0.051429 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.957179 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119d52b153b7f69b7be94c3fed0427a7') in 0.133476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3afd18da97b9e7dd0bef6ea38dcee602') in 0.043687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.553470 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc149ab277fe3ea89aab1c215a203e2') in 0.086966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003362 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e7090829187f70c633ecdc17291b08') in 0.070907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.789570 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fed70ea7d5cef2eb8544a1f7e30f637') in 0.052736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000706 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fd7e64136eea09054dfc8c3be9b4038') in 0.053011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.562503 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10edf781afb4a1ac2ac8ffaa4e4d934d') in 0.080218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001380 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4790ded085914ff2fa2cda5d5b0e01f7') in 0.087252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.945110 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09081b879bbe4db40d45998263e3433') in 0.053652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7488cc3860dcd7ba239052cc1e089b96') in 0.045500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.153805 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0f7cc9128436d3eb7b18de503e7e42') in 0.094975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002067 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f909bc8849ccd0f4d24d11dd2a7b518') in 0.059874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.132646 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2a3aee1ec91c28c765dce249bef430') in 0.105721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d3fa01b3794eb2112ade40e6c7ad6a') in 0.053059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.782510 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf09ce1f21fc4ae118988bf0d23b20c') in 0.059170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6087632f01860ee242f74c7655b88c56') in 0.061171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.207954 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e64baa88e1a933466a369ddf971d163') in 0.048410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea0014bd9a28ffb1a5737677897ecb1') in 0.056399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.380047 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008ee419509f5ebab38f8dc8ea66db25') in 0.030675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa86a2a3451402f08177884369c02cc') in 0.044851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.871087 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563d41f02278ac95da0caa4fae471d63') in 0.051206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d8f09cd9b8e73ffe0c6c63e6206e3a') in 0.113828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.065550 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3b14fc2322e5021f022d4a2e8c2ef8') in 0.037330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2cd68c7fa7a05fd2737fafa7f7e3a2') in 0.042802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.423234 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b968d77d983845029d17d31115c8d5d7') in 0.055446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65baf57a04ffb972d333318cdb15ffc') in 0.038325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.396839 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4a27088ed67515c2d4c82d50025788') in 0.047754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009416 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800706715af15117ddab9346d50aed4f') in 0.039252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.288045 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05e3148a6b2764a906d2a58d6cf6279') in 0.046465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f10d9a24cda525b14c66a2e9dfb4255') in 0.044823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.201418 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7580eb8f40fec16fa0ccf776ba9438') in 0.046668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa570efcad5715b554fcdc2db5f8fbf') in 0.037042 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.045388 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 5.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.656 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4657ms)
+		BeginReloadAssembly (818ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (52ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (381ms)
+		EndReloadAssembly (3423ms)
+			LoadAssemblies (481ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1191ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (143ms)
+			SetupLoadedEditorAssemblies (1196ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (6ms)
+				BeforeProcessingInitializeOnLoad (249ms)
+				ProcessInitializeOnLoadAttributes (812ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (79ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (60ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2954 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.9 MB.
+System memory in use after: 112.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3517.
+Total: 8.091900 ms (FindLiveObjects: 0.489900 ms CreateObjectMapping: 0.302400 ms MarkObjects: 7.224700 ms  DeleteObjects: 0.073100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 60.437176 seconds.
+  path: Assets/DeathEffect.cs
+  artifactKey: Guid(9d5813cbaa3b0684d9024c68bce405b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DeathEffect.cs using Guid(9d5813cbaa3b0684d9024c68bce405b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4874fe1817bc042cb86c93d1a3fd29b1') in 0.019225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.675883 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a51829740d32ffb663089c2ffe4e0f50') in 0.233828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc2e3374ac236d358fe4aee9f08c7ed') in 0.076351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.670390 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f60d22eb7cd30e60ac02c98da9568c') in 0.180667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Death Effect.prefab
+  artifactKey: Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Death Effect.prefab using Guid(827109389209e8249a5550dcc48c25ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041c95505194aba54aee61557a9f4632') in 0.051822 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024931 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.028 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4029ms)
+		BeginReloadAssembly (563ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (114ms)
+		EndReloadAssembly (3243ms)
+			LoadAssemblies (539ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1087ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (138ms)
+			SetupLoadedEditorAssemblies (1218ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (206ms)
+				ProcessInitializeOnLoadAttributes (916ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (50ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (56ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2953 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.9 MB.
+System memory in use after: 112.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3520.
+Total: 10.870000 ms (FindLiveObjects: 0.788700 ms CreateObjectMapping: 3.897100 ms MarkObjects: 6.128900 ms  DeleteObjects: 0.053600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 55.488694 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0081e86c4ec0d7f3de05f8870d0bc6b6') in 0.198094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.321305 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c76c6743aa1f8e2780b767421097c8') in 0.042520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.446456 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e237d028a98c78f4cd399d287ce73e') in 0.081391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.520700 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c93378a8bcb1601607ee905745ffdc') in 0.046371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.972282 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0bc384506289d8fd6a5109102502939') in 0.064262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.578476 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da938c1a977b2f16627c9ab31d78638') in 0.062556 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025364 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 7.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.302 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3304ms)
+		BeginReloadAssembly (370ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (25ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (117ms)
+		EndReloadAssembly (2748ms)
+			LoadAssemblies (293ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1074ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (163ms)
+			SetupLoadedEditorAssemblies (872ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (8ms)
+				BeforeProcessingInitializeOnLoad (191ms)
+				ProcessInitializeOnLoadAttributes (598ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (34ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2953 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.9 MB.
+System memory in use after: 112.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3523.
+Total: 3.663200 ms (FindLiveObjects: 0.558500 ms CreateObjectMapping: 0.349600 ms MarkObjects: 2.667700 ms  DeleteObjects: 0.084400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15.944733 seconds.
+  path: Assets/Big Death Effect.prefab
+  artifactKey: Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Big Death Effect.prefab using Guid(22fe302e2d7d50842877f4a692cef442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd32d30027c2ab413189b713ac3acb41') in 0.206816 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021233 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Media\Github Repos\Unity\June\NOXP\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.818 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2820ms)
+		BeginReloadAssembly (306ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (76ms)
+		EndReloadAssembly (2328ms)
+			LoadAssemblies (293ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (893ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (753ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (166ms)
+				ProcessInitializeOnLoadAttributes (520ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (32ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (36ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2953 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 111.9 MB.
+System memory in use after: 112.1 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3526.
+Total: 5.973900 ms (FindLiveObjects: 1.730700 ms CreateObjectMapping: 0.541500 ms MarkObjects: 3.644000 ms  DeleteObjects: 0.056400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 81.521119 seconds.
+  path: Assets/Particle Material.mat
+  artifactKey: Guid(06f5f9b6a63cf2f4e8ae86346f88ab73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Material.mat using Guid(06f5f9b6a63cf2f4e8ae86346f88ab73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7ec3ab6fe8d62947c44f3f27803392') in 0.221363 seconds 

@@ -940,8 +940,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joltVector: {x: 0, y: 0, z: 0}
+  shakeAmount: 0
   joltDecayVector: 0.7
-  maxMoveSpeed: 200
+  shakeDecayFactor: 0
+  maxMoveSpeed: 100
 --- !u!1 &1230890528
 GameObject:
   m_ObjectHideFlags: 0
@@ -2035,7 +2037,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5715363454822045956, guid: 2018d9ef7b4e7b147bc15e9db3150cb3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.93
+      value: -16.35
       objectReference: {fileID: 0}
     - target: {fileID: 5715363454822045956, guid: 2018d9ef7b4e7b147bc15e9db3150cb3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2043,7 +2045,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5715363454822045956, guid: 2018d9ef7b4e7b147bc15e9db3150cb3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.3
+      value: -7.53
       objectReference: {fileID: 0}
     - target: {fileID: 5715363454822045956, guid: 2018d9ef7b4e7b147bc15e9db3150cb3, type: 3}
       propertyPath: m_LocalRotation.w
